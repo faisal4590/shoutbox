@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: "Siyam Rupali";
+    font-size: 18px;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.clr {
+    overflow: hidden;
+}
+
+.headerSection {
+    background: #ff6c69 none repeat scroll 0 0;
+    border: 5px solid #c55858;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.footerSection {
+    background: #3DCC9E none repeat scroll 0 0;
+    border: 5px solid #1cab7d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    background: #ffcfb0 none repeat scroll 0 0;
+    min-height: 500px;
+    padding: 10px;
+    border: 5px solid #FF9D6C;
+}
+
+.box {
+    width: 600px;
+    margin: 30px auto 0;
+    overflow: scroll;
+    border: 5px solid #FF9D6C;
+    padding: 20px;
+    height: 300px;
+}
+
+.box ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.box ul li {
+    display: block;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #FF9D6C;
+    padding-bottom: 5px;
+}
+
+.box ul li:last-child {
+    margin-bottom: 0px;
+    border-bottom: 0px dashed #FF9D6C;
+    padding-bottom: 0px;
+}
+
+.box span {
+    color: #23B284;
+}
+
+.shoutform {
+    width: 600px;
+    margin: 30px auto 0;
+    border: 5px solid #FF9D6C;
+    padding: 20px;
+}
+
+
+.shoutform tr td {
+
+}
+.shoutform tr td.tdStyle {
+    color: #19a87a;
+    padding: 0 10px;
+}
+.shoutform tr td.tdStyle2 {
+    color: #19a87a;
+}
+.shoutform input[type="text"] {
+    border: 2px solid #ff9d6c;
+    padding: 5px;
+    width: 500px;
+}
+.shoutform input[type="submit"] {
+    background: #b345f1 none repeat scroll 0 0;
+    border: 3px solid #8038a8;
+    border-radius: 20px;
+    color: #afd5d5;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 8px;
+    width: 100px;
+
+}
+.shoutform input[type="submit"]:hover {
+    background: #FF6C69 none repeat scroll 0 0;
+    border: 3px solid #8038a8;
+    border-radius: 20px;
+    color: #f5f5f5;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 8px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.headerSection h2, .footerSection h2 {
+    color: #d5d5d5;
+}
